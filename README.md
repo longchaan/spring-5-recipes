@@ -7,3 +7,14 @@ STS 3.8.4 Neon.3 (4.6.3)
 - Project SDK: jdk1.8.0\_92 (java version "1.8.0_92") 
 - Buildship: Eclipse Plug-ins for Gradle 1.0.21.v20161010-1640
 - New Gradle Project (gradle-2.14.1)
+
+# 1 스프링 개발 툴
+
+## 1-1 STS로 스프링 애플리케이션 빌드하기
+
+- https://github.com/Apress/spring-5-recipes.git
+
+### 메이븐 프로젝트 임포트, 빌드하기
+
+- File > Import > Existing Maven Project
+- spring-recipes-4th/ch01/springintro_mvn 디렉터리를 지정
