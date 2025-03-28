@@ -1,3 +1,4 @@
 rootProject.name = 'spring-5-recipes'
 
 // include 'ch01:springintro_mvn'
+include 'ch01:springintro' 

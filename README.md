@@ -18,3 +18,15 @@ STS 3.8.4 Neon.3 (4.6.3)
 
 - File > Import > Existing Maven Project
 - spring-recipes-4th/ch01/springintro_mvn 디렉터리를 지정
+
+### 그레이들 프로젝트 임포트, 빌드하기
+
+> Maven project (i.e., pom.xml file) → Gradle project (i.e., build.gradle file)
+- bootstrap plug-in at http://gradle.org/docs/current/userguide/bootstrap_plugin.html
+- maven2gradle tool at https://github.com/jbaruch/maven2gradle.git
+
+- File > Import > Existing Gradle Project
+- spring-recipes-4th/ch01/springintro 디렉터리를 지정
+- Gradle Tasks 탭: springintro 프로젝트 > build 메뉴 열기 > build 오른쪽-클릭 Run Gradle Tasks
+- Gradle Tasks 뷰: springintro 프로젝트 > application (plugin)열기 > run 더블-클릭
+- ▷ Run Configurations... 클릭 > Main class: com.apress.springrecipes.hello.Main 입력
