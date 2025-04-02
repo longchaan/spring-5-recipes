@@ -54,10 +54,10 @@ $ export PATH=$PATH:/home/www/apache-maven-3.5.0/bin
 
 ## 1-4 메이븐 래퍼로 스프링 애플리케이션 빌드하기
 
-- ./mvnw package 명령을 실행하면 메이블을 자동으로 내려받고 빌드까지 수행
+- 명령줄에서 ./mvnw package 명령을 실행하면 메이블을 자동으로 내려받고 빌드까지 수행
 - 예제 소스 ch01/springintro_mvn에서 ./mvnw로 메이븐 래퍼를 실행하면 자동 빌드
 
-## 1-5 그레이들 래퍼로 스프링 애플리케이션 빌드하기
+## 1-5 그레이들 CLI로 스프링 애플리케이션 빌드하기
  
 - http://www.gradle.org/downloads 에서 그레이들을 내려받기
 - https://gradle.org/releases
@@ -76,3 +76,8 @@ $ export PATH=$PATH:/home/www/gradle-3.5/bin/
 
 - 예제 소스를 내려받아 압축 해제 후 ch01/springintro 디렉터리로 이동
 - gradle 명령으로 springintro 애플리케이션을 빌드
+
+## 1-6 그레이들 래퍼로 스프링 애플리케이션 빌드하기
+
+- CLI에서 ./gradlew build 명령을 실행하면 그레이들을 자동으로 내려받고 빌드까지 수행
+- 예제 소스 `ch01/Recipe_1_6`에서 ./gradlew로 그레이들 래퍼를 실행하면 자동 빌드
